@@ -1,0 +1,101 @@
+.article {
+	display: flex;
+  }
+  
+  .article a {
+	text-decoration: none;
+  }
+  
+  .article-left-side {
+	min-width: 20%;
+	max-width: 20%;
+  }
+  
+  .article-right-side {
+	flex-basis: 80%;
+	min-width: 700px;
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+	padding: 30px;
+  }
+  
+  .article-right-side:hover {
+	background: #fafafa;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  .article-date {
+	padding-top: 30px;
+	font-size: 15px;
+	color: var(--tertiary-color);
+  }
+  
+  .article-title {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 600;
+  }
+  
+  .article-description {
+	padding-top: 10px;
+	font-size: 12px;
+	color: var(--secondary-color);
+	font-weight: 480;
+	line-height: 25px;
+  }
+  
+  .article-link {
+	padding-top: 10px;
+	font-size: 14px;
+	color: var(--link-color);
+	font-weight: 700;
+  }
+  
+  @media (max-width: 1024px) {
+	.article-left-side {
+	  min-width: 10%;
+	  max-width: 10%;
+	}
+  
+	.article-right-side {
+	  flex-basis: 90%;
+	  min-width: 85%;
+	  max-width: 85%;
+	}
+  }
+  
+  .education-section {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+  }
+  
+  .section-heading {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #333;
+  }
+  
+  .paragraph {
+	margin-bottom: 8px;
+  }
+  
+  .paragraph strong {
+	font-weight: bold;
+	color: #007bff;
+  }
+  
+  .randImage {
+	display: block;
+	margin: 20px 0; /* Adjust margin as needed */
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
